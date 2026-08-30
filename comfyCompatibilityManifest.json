@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-14T02:09:20.217Z",
+  "updatedAt": "2026-08-30T14:04:56.672Z",
   "entries": [
     {
       "version": "0.30.0",
@@ -13,7 +13,7 @@
     {
       "version": "0.33.1",
       "status": "verified",
-      "pawVersions": ["1.8.0", "1.8.1"],
+      "pawVersions": ["1.8.0", "1.8.1", "2.0.0"],
       "verifiedAt": "2026-08-14",
       "hardware": ["NVIDIA GeForce RTX 3060 12GB", "NVIDIA GeForce RTX 5060 Ti 16GB"],
       "summary": "RTX 5060 Tiでは主要画像生成、H3、SCAIL-2、LTX、Krea2、Eagle保存、GPU解放を確認済みです。RTX 3060ではSCAIL-2を除く導入済み機能と更新後の自動復旧を確認済みで、SCAIL-2は未導入のため未検証です。"
