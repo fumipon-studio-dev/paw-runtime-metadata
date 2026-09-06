@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-03T00:00:00.000Z",
+  "updatedAt": "2026-09-07T00:00:00.000Z",
   "entries": [
     {
       "version": "0.30.0",
@@ -13,10 +13,10 @@
     {
       "version": "0.33.1",
       "status": "verified",
-      "pawVersions": ["1.8.0", "1.8.1", "1.8.2", "2.0.0", "2.0.1", "2.0.2", "2.0.3"],
-      "verifiedAt": "2026-09-03",
+      "pawVersions": ["1.8.0", "1.8.1", "1.8.2", "2.0.0", "2.0.1", "2.0.2", "2.0.3", "2.0.4"],
+      "verifiedAt": "2026-09-07",
       "hardware": ["NVIDIA GeForce RTX 3060 12GB", "NVIDIA GeForce RTX 5060 Ti 16GB"],
-      "summary": "RTX 5060 Tiでは主要画像生成、H3、SCAIL-2、LTX、Krea2、Eagle保存、GPU解放を確認済みです。RTX 3060ではSCAIL-2を除く導入済み機能と更新後の自動復旧を確認済みで、SCAIL-2は未導入のため未検証です。P.A.W 2.0.1ではIrodori工房の環境準備・生成を、P.A.W 2.0.3では機能別環境診断、Anima／SolAttention診断表示、通知UIセルフテストをComfyUI 0.33.1で追加確認済みです。"
+      "summary": "RTX 5060 Tiでは主要画像生成、H3、SCAIL-2、LTX、Krea2、Eagle保存、GPU解放を確認済みです。RTX 3060ではSCAIL-2を除く導入済み機能と更新後の自動復旧を確認済みで、SCAIL-2は未導入のため未検証です。P.A.W 2.0.1ではIrodori工房の環境準備・生成を、P.A.W 2.0.3では機能別環境診断、Anima／SolAttention診断表示、通知UIセルフテストを確認済みです。P.A.W 2.0.4ではモデル管理、外部Checkpoint／LoRA、Civitai同期、T2I／I2I分類、ハードリンク解除、外部登録全解除後の再起動をComfyUI 0.33.1で追加確認済みです。"
     }
   ]
 }
