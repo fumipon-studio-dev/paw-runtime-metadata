@@ -9,6 +9,7 @@ P.A.W本体のソースコード、生成内容、ユーザー設定は含まれ
 
 - `comfyCompatibilityManifest.json` の `verified`／`pawVersions` には、実機で確認済みの組合せだけを登録する。未検証の最新版は `verified` にしない。
 - 同じ検証済み組合せを、P.A.W本体の同梱マニフェストにも登録する。
+- 同梱ランタイムのCUDAメジャー版が変わる場合は、対応するWindows版NVIDIAドライバー最低条件と起動前ガードを本体側で更新し、summaryへ記録する。CUDA 13系の最低条件は580.00である。
 - P.A.W本体リポジトリとこの公開リポジトリの両方でリリースコミットとpushを完了し、公開ファイルの配信反映を確認する。公開側の反映が未確認ならリリース完了としない。
 - 配布前に、認証なしで [公開rawマニフェスト](https://raw.githubusercontent.com/fumipon-studio-dev/paw-runtime-metadata/main/comfyCompatibilityManifest.json) を取得してHTTP 200とJSON妥当性を確認する。P.A.W本体の現行 `package.json` の `version` を使って `findLatestVerifiedComfyCompatibility` が期待する検証済み版を選べることも確認する。
 - 互換性情報はプロセス内で最大1時間キャッシュされるため、公開反映確認後にP.A.Wを完全終了して再起動し、再取得する（1時間待つ必要はない）。その後、クリーンな初回セットアップを実機で確認する。これは公開反映確認とは別の必須確認である。
