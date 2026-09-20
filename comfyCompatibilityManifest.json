@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-10T00:00:00.000Z",
+  "updatedAt": "2026-09-20T00:00:00.000Z",
   "entries": [
     {
       "version": "0.30.0",
@@ -17,6 +17,14 @@
       "verifiedAt": "2026-09-10",
       "hardware": ["NVIDIA GeForce RTX 3060 12GB", "NVIDIA GeForce RTX 5060 Ti 16GB"],
       "summary": "RTX 5060 Tiでは主要画像生成、H3、SCAIL-2、LTX、Krea2、Eagle保存、GPU解放を確認済みです。RTX 3060ではSCAIL-2を除く導入済み機能と更新後の自動復旧を確認済みで、SCAIL-2は未導入のため未検証です。P.A.W 2.0.1ではIrodori工房の環境準備・生成を、P.A.W 2.0.3では機能別環境診断、Anima／SolAttention診断表示、通知UIセルフテストを確認済みです。P.A.W 2.0.4ではモデル管理、外部Checkpoint／LoRA、Civitai同期、T2I／I2I分類、ハードリンク解除、外部登録全解除後の再起動を、P.A.W 2.0.5ではIrodoriの管理環境・モデル・キャッシュ削除、セッション単位のログ、診断ログ回収、CUDA 13に対するNVIDIAドライバー起動前互換ガードをComfyUI 0.33.1で追加確認済みです。"
+    },
+    {
+      "version": "0.36.0",
+      "status": "verified",
+      "pawVersions": ["2.0.7"],
+      "verifiedAt": "2026-09-20",
+      "hardware": ["NVIDIA GeForce RTX 5060 Ti 16GB"],
+      "summary": "P.A.W 2.0.7でComfyUI更新後の不足パーツ修復とH3個別環境準備を行い、Illustrious、Anima、Krea2の画像生成、およびMiniMax H3 StudioのSageAttention／Sol-Attn診断・実生成完走を確認済みです。"
     }
   ]
 }
