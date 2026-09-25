@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-20T00:00:00.000Z",
+  "updatedAt": "2026-09-25T00:00:00.000Z",
   "entries": [
     {
       "version": "0.30.0",
@@ -25,6 +25,14 @@
       "verifiedAt": "2026-09-20",
       "hardware": ["NVIDIA GeForce RTX 5060 Ti 16GB"],
       "summary": "P.A.W 2.0.7でComfyUI更新後の不足パーツ修復とH3個別環境準備を行い、Illustrious、Anima、Krea2の画像生成、およびMiniMax H3 StudioのSageAttention／Sol-Attn診断・実生成完走を確認済みです。"
+    },
+    {
+      "version": "0.37.0",
+      "status": "verified",
+      "pawVersions": ["2.0.8"],
+      "verifiedAt": "2026-09-25",
+      "hardware": ["NVIDIA GeForce RTX 5060 Ti 16GB"],
+      "summary": "P.A.W 2.0.8でQwen Image 2.1のT2I、I2I、参照画像、部分編集、背景透過、LM Studioプロンプト整理、1K／2K出力とI2Iの2K相当サイズ調整を確認済みです。"
     }
   ]
 }
