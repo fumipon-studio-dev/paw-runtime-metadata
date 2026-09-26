@@ -29,10 +29,10 @@
     {
       "version": "0.37.0",
       "status": "verified",
-      "pawVersions": ["2.0.8"],
-      "verifiedAt": "2026-09-25",
+      "pawVersions": ["2.0.8", "2.0.9"],
+      "verifiedAt": "2026-09-26",
       "hardware": ["NVIDIA GeForce RTX 5060 Ti 16GB"],
-      "summary": "P.A.W 2.0.8でQwen Image 2.1のT2I、I2I、参照画像、部分編集、背景透過、LM Studioプロンプト整理、1K／2K出力とI2Iの2K相当サイズ調整を確認済みです。"
+      "summary": "P.A.W 2.0.8でQwen Image 2.1のT2I、I2I、参照画像、部分編集、背景透過、LM Studioプロンプト整理、1K／2K出力とI2Iの2K相当サイズ調整を確認済みです。P.A.W 2.0.9でRTX 5060 Ti 16GBにおけるSDXL・FLUX・Krea2の手動解像度選択後のLoRA学習完走を確認済みです。"
     }
   ]
 }
